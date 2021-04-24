@@ -19,24 +19,6 @@
 
 
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-</p>
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#built-with">Built With</a>
-    </li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
 
 
 <!-- ABOUT THE PROJECT -->
