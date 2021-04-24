@@ -40,7 +40,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Bambang Satrio Gandhi - [@dandisatrio_31](https://www.instagram.com/dandisatrio31/) - dandisatrio810@gmail.com
+Bambang Satrio Gandhi - [@dandisatrio31](https://www.instagram.com/dandisatrio31/) - dandisatrio810@gmail.com
 
 Project Link: [https://github.com/dandisatrio/portofolio_personal](https://github.com/dandisatrio/portofolio_personal)
 
