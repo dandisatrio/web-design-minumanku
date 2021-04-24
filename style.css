@@ -1,0 +1,318 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #e0dbdb;
+}
+.navbar-brand {
+  font-size: 800;
+  color: #272643;
+}
+
+.cart svg path {
+  color: #272643;
+}
+.nav-link span {
+  color: #272643;
+  font-size: 17px;
+}
+
+.btn-login {
+  border-radius: 14px;
+  border: 1px solid #989393;
+  background-color: #fff;
+  color: #272643;
+  width: 80px;
+}
+.btn-register {
+  border-radius: 14px;
+  border: 1px solid #989393;
+  background-color: #272643;
+  color: #fff;
+  width: 80px;
+}
+.btn-login:hover {
+  border-radius: 14px;
+  border: 1px solid #989393;
+  background-color: #272643;
+  color: #fff;
+  width: 80px;
+}
+.btn-register:hover {
+  border-radius: 14px;
+  border: 1px solid #989393;
+  background-color: #fff;
+  color: #272643;
+  width: 80px;
+}
+
+.nav-item .profile-user {
+  color: #272643;
+  margin: auto;
+}
+.nav-item .name-profile {
+  font-family: "Roboto", sans-serif;
+  margin-left: 4px;
+}
+
+/* Akhir Navbar */
+
+/* Carousel */
+.carousel {
+  height: 450px;
+  background-color: #c0200a;
+  padding-top: 20px;
+}
+
+.carousel-item h1,
+p {
+  color: #fff;
+}
+.carousel-item img {
+  height: auto;
+  border-radius: 25px;
+}
+
+.btn-now:hover {
+  background-color: #3b3a3a;
+}
+/* Akhir Carousel */
+
+/* Schedule */
+.schedule {
+  background-color: #212121;
+}
+
+.schedule .card {
+  background-color: #bae8e8;
+  font-weight: 400;
+}
+/* Akhir Schedule */
+
+/* Product */
+.product {
+  background-color: #e3f6f5;
+}
+
+.product h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+
+.product p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.figure-img {
+  position: relative;
+}
+
+.figure-img a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+  opacity: 1;
+}
+/* Akhir Product */
+
+/* Banner */
+.banner {
+  height: 300px;
+  background-image: url(img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  background-position: center;
+}
+
+.overlay {
+  background: linear-gradient(rgba(102, 88, 136, 0.822), rgba(8, 8, 8, 0.7));
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+/* Akhir Banner */
+
+/* Footer */
+footer {
+  background-color: #0b0b0b;
+  color: #fff;
+}
+
+footer ul a {
+  color: #fff;
+}
+footer ul a img {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+/* Footer Akhir */
+
+/* breadcrumb */
+.breadcrumbs {
+  padding-top: 20px;
+  margin-top: 40px;
+  background-color: #e3f6f5;
+  height: 100px;
+}
+.breadcrumb li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+
+.breadcrumbs-cart {
+  background-color: #e3f6f5;
+  height: 100px;
+}
+.breadcrumb-cart li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+/* breadcrumb Akhir */
+
+.product-coffee,
+.product-tea {
+  background-color: #e3f6f5;
+}
+.product-coffee h5,
+.product-tea h5 {
+  font-weight: 400;
+  color: #000;
+}
+
+.product-coffee p,
+.product-tea p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+/* Single-Product */
+.single-product {
+  background-color: #e3f6f5;
+}
+.single-product .figure-img {
+  height: 480px;
+}
+.product-thumbnail-container {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-50px);
+}
+.product-thumbnail-container a img {
+  height: 90px;
+}
+.product-thumbnail-container a:hover {
+  text-decoration: none;
+}
+
+.single-product p {
+  color: #000;
+}
+
+.btn-product {
+  padding: 20px 0 20px 0;
+}
+.btn-add-cart {
+  background-color: #0b0b0b;
+}
+.btn-add-wish {
+  background-color: #bae8e8;
+  color: #2c698d;
+}
+.btn-add-cart:hover {
+  background-color: #0b0b0bbe;
+}
+.btn-add-wish:hover {
+  background-color: #bae8e8a4;
+}
+
+/* Single Akhir */
+
+/* Product Review */
+.product-description{
+  background-color: #f6f7fb;
+  height: 320px;
+}
+.product-description .tab-content{
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+.product-description .tab-content p{
+  font-size: 16px;
+  font-weight: 200;
+  color: #000;
+  line-height: 28px;
+}
+
+.product-review{
+  height: 320px;
+  overflow: scroll;
+}
+.product-review img{
+  height: 60px;
+}
+.product-review h5{
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.product-review p{
+  font-size: 14px !important;
+}
+/* Product Review Akhir */
+
+/* Similar product */
+.similar-product {
+  margin-top: 150px;
+}
+/* Similar product Akhir */
+
+/* Cart */
+.cart-header {
+  padding-top: 100px;
+  background-color: #e3f6f5;
+  height: 220px;
+}
+.cart-header p{
+  color: #0b0b0b;
+}
+
+.checkout{
+  background-color: #e3f6f5;
+}
+.checkout img{
+  height: 70px;
+}
+.checkout p{
+  color: #000;
+}
+
+.checkout-detail{
+  border: 1px solid #eaeaae;
+}
